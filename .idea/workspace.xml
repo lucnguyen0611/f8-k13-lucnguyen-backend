@@ -5,95 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8249d739-74cb-425d-8ca3-6d4a534e7f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/answer/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/answer/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/answer/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/answer/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/answer/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classUser/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classUser/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classUser/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classUser/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classUser/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/exam/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/exam/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/exam/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/exam/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/exam/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examGroup/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examGroup/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examGroup/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examGroup/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examGroup/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examResult/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examResult/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examResult/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examResult/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/examResult/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/file/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/file/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/file/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/file/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/file/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/job/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/job/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/job/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/job/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/job/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/question/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/question/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/question/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/question/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/question/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/subject/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/subject/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/subject/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/subject/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/subject/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/topic/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/topic/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/topic/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/topic/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/topic/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/user/controllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/user/dtos.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/user/entities.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/user/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/user/services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/answer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/classUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/exam.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/examGroup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/examResult.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/file.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/job.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/question.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/subject.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/topic.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/database/providers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/database/providers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/base/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/base/services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classes/controllers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classes/controllers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classes/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/classes/services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/teachers/controllers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/teachers/dtos.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/teachers/module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/teachers/services.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/modules/users/entities.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/const.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/const.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f8-k13/a_backend/api/src/shares/type/teacher.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55-56/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55-56/api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55-56/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f8-k13" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Day55-56/api" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -108,14 +39,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/coi/Downloads/F8-bai-tap/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/coi/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "prettierjs.PrettierConfiguration.Package": "/home/coi/Downloads/F8-bai-tap/Backend/Day55-56/api/node_modules/prettier",
+    "ts.external.directory.path": "/home/coi/Downloads/F8-bai-tap/Backend/Day55-56/api/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -155,6 +87,9 @@
       <workItem from="1752457145846" duration="1894000" />
       <workItem from="1752544330033" duration="21000" />
       <workItem from="1753071075708" duration="448000" />
+      <workItem from="1753071583294" duration="1326000" />
+      <workItem from="1753074411019" duration="1602000" />
+      <workItem from="1753076364951" duration="1570000" />
     </task>
     <servers />
   </component>
