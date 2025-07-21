@@ -1,11 +1,11 @@
 interface TopicBaseI {
-    code: string;
-    name: string;
-    subjectId: number;
+  code: string;
+  name: string;
+  subjectId: number;
 }
 
 export interface TopicI extends TopicBaseI {
-    id: number
+  id: number;
 }
 
 // create or update
@@ -13,4 +13,3 @@ export interface TopicReqI extends TopicBaseI {}
 
 // response
 export interface TopicResI extends TopicI {}
-

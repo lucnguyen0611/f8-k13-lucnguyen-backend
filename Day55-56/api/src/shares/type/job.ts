@@ -1,9 +1,9 @@
 interface JobBaseI {
-    name: string;
+  name: string;
 }
 
 export interface JobI extends JobBaseI {
-    id: number
+  id: number;
 }
 
 // create or update
@@ -11,4 +11,3 @@ export interface JobReqI extends JobBaseI {}
 
 // response
 export interface JobResI extends JobI {}
-

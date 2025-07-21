@@ -1,10 +1,17 @@
 import { DataSource } from 'typeorm';
-import { DATA_SOURCE } from "@/shares";
-import * as process from "node:process";
-import { UserEntity } from "@/modules/user/entities";
-import { ClassEntity } from "@/modules/classes/entities";
-import { SubjectEntity } from "@/modules/subject/entities";
-
+import { DATA_SOURCE } from '@/shares';
+import { ClassEntity } from '@/modules/classes/entities';
+import { SubjectEntity } from '@/modules/subject/entities';
+import { ClassUserEntity } from '@/modules/classUser/entities';
+import { ExamGroupEntity } from '@/modules/examGroup/entities';
+import { ExamEntity } from '@/modules/exam/entities';
+import { QuestionEntity } from '@/modules/question/entities';
+import { AnswerEntity } from '@/modules/answer/entities';
+import { ExamResultEntity } from '@/modules/examResult/entities';
+import { TopicEntity } from '@/modules/topic/entities';
+import { FileEntity } from '@/modules/file/entities';
+import { JobEntity } from '@/modules/job/entities';
+import { UserEntity } from '@/modules/user/entities';
 
 export const databaseProviders = [
   {
@@ -18,9 +25,18 @@ export const databaseProviders = [
         password: process.env.POSTGRES_PASSWORD,
         database: process.env.POSTGRES_DB,
         entities: [
-          UserEntity,
           ClassEntity,
           SubjectEntity,
+          ClassUserEntity,
+          ExamGroupEntity,
+          ExamEntity,
+          QuestionEntity,
+          AnswerEntity,
+          ExamResultEntity,
+          TopicEntity,
+          FileEntity,
+          JobEntity,
+          UserEntity,
         ],
         synchronize: true,
       });
