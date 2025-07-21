@@ -1,0 +1,75 @@
+            huy 2k2     vuong 2k    hoc 2k1
+giang 98    trung 98    nam 95      son 94
+
+protocl   donmainb
+
+re-use
+https://fullstack.edu.vn/
+                            path  path  params
+https://fullstack.edu.vn/landing/htmlcss?id=3
+
+h1: heading tiêu đề
+    h1 -> h6: h1 nên là nội dung chính, tiếp theo đó là h2, h3 -> h6
+P: thẻ đoạn văn bản
+    khi viết xuống dong hoặc nhiều dầu cách thì thể p tự đông chuyển về đúng đinh dạng (1 space)
+    nếu muốn hiện thị dâu cách thì dùng &nbsp;
+b: in đậm - non semantic
+strong: in dam -> semantic
+<b>hello anh em</b>
+<strong>hello</strong> anh em
+
+
+root folder
+
+root
+    app
+    web
+        html
+        js
+    api
+        python
+            py3
+            py2
+        js
+        java
+    deployment
+
+ls: lấy ds folder & file ở folder hien tại
+cd web: -> nhảy vào folder web
+cd .. -> nhảy vào folder root
+cd api/python/py3
+cd ../../..
+cd /
+
+<a href="../test/index.html">
+<a href="/test/index.html">
+<a href="test/index.html">
+<a href="//youtube.com">
+<a href="https://youtube.com">
+<a href="/test/../test2/../index.html">
+
+UX: Trai Nghiem nguoi dung
+UI: Giao dien
+
+
+
+https://example.com/blog/post.html
+
+<a hef="about.html"></a>
+    -> https://example.com/blog/about.html
+
+<a hef="/about.html"></a>
+    -> https://example.com/blog/about.html (hoc / giang / nam / vuong)
+    -> https://example.com/about.html (trung, luc, dung, son)
+
+<a hef="../index.html"></a>
+    -> https://example.com/blog/index.html (hoc)
+    -> https://example.com/index.html (giang / a son / trung) -> https://example.com/
+    -> https://example.com/blog (a nam)
+
+<a hef="/product/index2.html"></a>
+    -> https://example.com/product/index2.html
+    -> https://example.com/product/
+
+<a hef="product/index.html"></a>
+    -> https://example.com/blog/product/index.html
