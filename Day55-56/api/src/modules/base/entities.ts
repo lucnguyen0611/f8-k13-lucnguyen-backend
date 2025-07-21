@@ -1,41 +1,41 @@
-import {Column, PrimaryGeneratedColumn} from "typeorm";
+import { Column, PrimaryGeneratedColumn } from 'typeorm';
 
 export class BaseEntity {
   @PrimaryGeneratedColumn()
-  id: number
+  id: number;
 
   @Column({
-    default: () => "CURRENT_TIMESTAMP(6)"
+    default: () => 'CURRENT_TIMESTAMP(6)',
   })
-  createdAt: Date
+  createdAt: Date;
 
   @Column({
-    nullable: true
+    nullable: true,
   })
-  createdBy: number
+  createdBy: number;
 
   @Column({
-    nullable: true
+    nullable: true,
   })
-  modifiedAt: Date
+  modifiedAt: Date;
 
   @Column({
-    nullable: true
+    nullable: true,
   })
-  modifiedBy: number
+  modifiedBy: number;
 
   @Column({
-    nullable: true
+    nullable: true,
   })
-  deletedAt: Date
+  deletedAt: Date;
 
   @Column({
-    nullable: true
+    nullable: true,
   })
-  deletedBy: number
+  deletedBy: number;
 
   @Column({
-    default: true
+    default: true,
   })
-  active: boolean
+  active: boolean;
 }

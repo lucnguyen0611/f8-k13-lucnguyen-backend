@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AnswerController } from './controllers';
-import { AnswerService } from "./services";
+import { AnswerService } from './services';
 import { DataSource } from 'typeorm';
-import {AnswerServiceToken, DATA_SOURCE} from "@/shares";
-import { AnswerEntity } from "@/modules/answer/entities";
-import {DatabaseModule} from "@/database/module";
+import { AnswerServiceToken, DATA_SOURCE } from '@/shares';
+import { AnswerEntity } from '@/modules/answer/entities';
+import { DatabaseModule } from '@/database/module';
 
 @Module({
   imports: [DatabaseModule],
@@ -12,13 +12,14 @@ import {DatabaseModule} from "@/database/module";
   providers: [
     {
       provide: 'AnswerEntityRepository',
-      useFactory: (dataSource: DataSource) => dataSource.getRepository(AnswerEntity),
-      inject: [DATA_SOURCE]
+      useFactory: (dataSource: DataSource) =>
+        dataSource.getRepository(AnswerEntity),
+      inject: [DATA_SOURCE],
     },
     {
       provide: AnswerServiceToken,
-      useClass: AnswerService
-    }
+      useClass: AnswerService,
+    },
   ],
 })
 export class AnswerModule {}
